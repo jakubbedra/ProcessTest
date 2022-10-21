@@ -1,0 +1,229 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProcessTest/1.0.0": {
+        "dependencies": {
+          "System.Diagnostics.PerformanceCounter": "7.0.0-rc.2.22472.3",
+          "System.Management": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "ProcessTest.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0-rc.2.22472.3": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.CodeDom/7.0.0-rc.2.22472.3": {
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "7.0.0-rc.2.22472.3",
+          "System.Security.Permissions": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Management/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "System.CodeDom": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/7.0.0-rc.2.22472.3": {
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Security.Permissions/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "System.Windows.Extensions": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      },
+      "System.Windows.Extensions/7.0.0-rc.2.22472.3": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0-rc.2.22472.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.47203"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProcessTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/1Q4EliHYtAwVNBSB/qByvayhKV+1PYkpKF1VMKz67twIGjRcnw8UfvYrl7xWE426MiLl/fOsT/ql/7ii/HoTA==",
+      "path": "microsoft.win32.systemevents/7.0.0-rc.2.22472.3",
+      "hashPath": "microsoft.win32.systemevents.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.CodeDom/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iNxzkVPFtIfhPQCevNLhUcRQsmkvvvI4NpTLmkkkP7qpfKkMQlqoVonW560oBrKfXh8vLRTAUFwS1Gm+fGQSug==",
+      "path": "system.codedom/7.0.0-rc.2.22472.3",
+      "hashPath": "system.codedom.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mgHgSZLbLOxppC8/sA/kY84brw666iFe0n0p6fUP04Ii/PXrZ3X5jp2HGwCtaDtUsLzZnbOP4ei8Ari5i028YQ==",
+      "path": "system.configuration.configurationmanager/7.0.0-rc.2.22472.3",
+      "hashPath": "system.configuration.configurationmanager.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L1LSUjKDKULV9sNknDiaFCAhW/kzTsZ9g684zIhsz0TtvHBJ07pLdzfOasBMkO9C3Ux3w/8Ow1J+9qodXnQvIQ==",
+      "path": "system.diagnostics.performancecounter/7.0.0-rc.2.22472.3",
+      "hashPath": "system.diagnostics.performancecounter.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3rIg2KRI+DqQysJ8mcpyOcNRaBR0L5gmVt91y7VOEBbTmK1jnfTXdm+zWHwv4SSCXRSOtYUKNW7iEnPuI6O9dw==",
+      "path": "system.drawing.common/7.0.0-rc.2.22472.3",
+      "hashPath": "system.drawing.common.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Management/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pw9fMr+2/fgRtGGUyclITFQ4MjVxzQiZ6ypufHWtMNgN7PqC9B+DufE5LbRu0SrRMUwvtW0BYdIDnltl26tUTw==",
+      "path": "system.management/7.0.0-rc.2.22472.3",
+      "hashPath": "system.management.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ON42xvuGqrZunDni15lKH9e1YYnIJY0G9mCrzJN0O7qoEpB0YtA3c3ewfL9PFzn9QJqwiIlu+hjDZFh7ZXCKnQ==",
+      "path": "system.security.cryptography.protecteddata/7.0.0-rc.2.22472.3",
+      "hashPath": "system.security.cryptography.protecteddata.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Security.Permissions/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ilm5qMxre/7ODWccTw+fTxjA9qX2mUPIW4eA+6OC6tqhkPptshUUPuTRppEwh/T7wcw4zEHYX2UZ8wSXI0Jv0A==",
+      "path": "system.security.permissions/7.0.0-rc.2.22472.3",
+      "hashPath": "system.security.permissions.7.0.0-rc.2.22472.3.nupkg.sha512"
+    },
+    "System.Windows.Extensions/7.0.0-rc.2.22472.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xBwPi8E0uCi/HueVzbKrOCns6t23saqzkwg0+tXFLKWbpOEll5DnzhvNFG4OplGSRSllACY7X+VuzMz7Dz6yiA==",
+      "path": "system.windows.extensions/7.0.0-rc.2.22472.3",
+      "hashPath": "system.windows.extensions.7.0.0-rc.2.22472.3.nupkg.sha512"
+    }
+  }
+}
